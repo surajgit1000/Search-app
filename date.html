@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Html</title>
+</head>
+
+<body>
+    <center>
+        <h1>This is For Date Method</h1>
+        <h1 id="time"></h1>
+        <button id="button">Stop TIme😀</button>
+    </center>
+    <script>
+         let btn=document.getElementById("button");
+          function stoptime(){
+              btn.innerText="Start Time😁"
+          }
+          function starttime(){
+              btn.innerText="Stop TIme😀"
+          }
+          btn.addEventListener('click',function(){
+              if(this.innerText="Stop TIme😀"){
+                  stoptime();
+              }
+              else if(this.innerText="Start Time😁"){
+                  starttime();
+              }
+          })
+    </script>
+</body>
+
+</html>
